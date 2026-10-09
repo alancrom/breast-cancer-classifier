@@ -62,5 +62,4 @@ Python · pandas · NumPy · scikit-learn · Matplotlib · seaborn
 ## Context and credits
 
 - Academic team project (4 members), completed during the M.Sc. in Applied Artificial Intelligence at Tecnológico de Monterrey.
-- **My role:** TODO — one or two lines on what you personally did.
-- **AI-use disclosure:** as stated at the end of the notebook, Gemini was used for code optimization and debugging.
+- I worked across the whole project with my teammates: exploratory analysis, the correlation-based feature reduction, the three scikit-learn pipelines, and the evaluation (confusion matrix, ROC curve, and decision-threshold analysis).
