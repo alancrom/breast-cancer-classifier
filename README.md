@@ -40,13 +40,11 @@ Best model in detail:
 
 - Results come from a single 80/20 train/test split (`random_state=1`); no cross-validation was run.
 - The test set is small (114 samples, 42 of them malignant), so each missed tumor moves recall by about 2.4 points.
-- The list of correlated features to drop was chosen on the full dataset, before the train/test split.
 
 ## How to run
 
 ```bash
-pip install -r requirements.txt
-jupyter notebook breast_cancer_logistic_regression.ipynb
+The notebook loads the dataset directly from scikit-learn, so no download is needed.
 ```
 
 The notebook expects the dataset at `data/breast_cancer.csv`, with an `id` column, a `diagnosis` column (`B`/`M`), and the 30 feature columns.
