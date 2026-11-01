@@ -50,7 +50,6 @@ jupyter notebook breast_cancer_logistic_regression.ipynb
 
 The notebook loads the dataset directly from scikit-learn, so no download is needed.
 
-The notebook expects the dataset at `data/breast_cancer.csv`, with an `id` column, a `diagnosis` column (`B`/`M`), and the 30 feature columns.
 
 ## Data
 
