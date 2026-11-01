@@ -44,8 +44,11 @@ Best model in detail:
 ## How to run
 
 ```bash
-The notebook loads the dataset directly from scikit-learn, so no download is needed.
+pip install -r requirements.txt
+jupyter notebook breast_cancer_logistic_regression.ipynb
 ```
+
+The notebook loads the dataset directly from scikit-learn, so no download is needed.
 
 The notebook expects the dataset at `data/breast_cancer.csv`, with an `id` column, a `diagnosis` column (`B`/`M`), and the 30 feature columns.
 
